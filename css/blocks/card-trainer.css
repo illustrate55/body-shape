@@ -37,7 +37,7 @@
 
     font-family: var(--font-accent);
     font-weight: 700;
-    font-size: 42px;
+    font-size: clamp(1.625rem, 1.261rem + 1.82vw, 2.625rem);
     text-align: center;
     color: #fff;
 
