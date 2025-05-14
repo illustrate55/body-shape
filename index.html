@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BodyShape</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./img/favicons/favicon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png" sizes="180x180">
+    
 </head>
 <body>
 
@@ -229,18 +232,18 @@
 
                 <form action="" class="form">
                     <div class="form-group">
-                        <label for="" class="label">Ваше имя</label>
-                        <input type="text" class="input" autocomplete="off" placeholder="Юрий">
+                        <label for="name" class="label">Ваше имя</label>
+                        <input id="name" type="text" class="input" autocomplete="off" placeholder="Юрий">
                     </div>
 
                     <div class="form-group">
-                        <label for="" class="label">E-mail</label>
-                        <input type="email" class="input" autocomplete="off" placeholder="info@mail.com">
+                        <label for="email" class="label">E-mail</label>
+                        <input id="email" type="email" class="input" autocomplete="off" placeholder="info@mail.com">
                     </div>
 
                     <div class="form-group">
-                        <label for="" class="label">Сообщение</label>
-                        <textarea name="" id="" class="textarea" placeholder="Меня зовут Юрий, и я заинтересован в ваших услугах. Хотелось бы узнать больше о программах тренировок и возможностях записи. Заранее спасибо за ответ!"></textarea>
+                        <label for="message" class="label">Сообщение</label>
+                        <textarea id="message" name="message" class="textarea" placeholder="Меня зовут Юрий, и я заинтересован в ваших услугах. Хотелось бы узнать больше о программах тренировок и возможностях записи. Заранее спасибо за ответ!"></textarea>
                     </div>
 
                     <div class="form-group">
@@ -250,5 +253,35 @@
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-socials">
+                <li><a href="#!">
+                    <img src="img/socials/vk.svg" alt="">
+                </a></li>
+                <li><a href="#!">
+                    <img src="img/socials/rutube.svg" alt="">
+                </a></li>
+                <li><a href="#!">
+                    <img src="img/socials/dzen.svg" alt="">
+                </a></li>
+                <li><a href="#!">
+                    <img src="img/socials/telegram.svg" alt="">
+                </a></li>
+            </ul>
+
+            <div class="footer-contacts">
+                <address class="footer-contacts-col">
+                    г. Москва, ул. Тверская, д. 12, стр. 1<br> 
+                    Россия, 125009  
+                </address>
+                <div class="footer-contacts-col">
+                    Телефон <a href="tel:+78001234567">+7 (800) 12 34 567</a><br>
+                    <a href="mailto:info@bodyshape.ru">info@bodyshape.ru</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
